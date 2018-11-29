@@ -1,0 +1,56 @@
+<passwd host="pc-proyecto" date="08/12/2017">
+	<user name="ossec">
+		<username value="ossec"/>
+		<password value="x"/>
+		<uid value="1001"/>
+		<gid value="1001"/>
+		<gecos value=""/>
+		<home value="/var/ossec"/>
+		<shell value="/bin/false"/>
+	</user>
+	<user name="mysql">
+		<username value="mysql"/>
+		<password value="x"/>
+		<uid value="118"/>
+		<gid value="122"/>
+		<gecos value="MySQL Server,,,"/>
+		<home value="/nonexistent"/>
+		<shell value="/bin/false"/>
+	</user>
+	<user name="sshd">
+		<username value="sshd"/>
+		<password value="x"/>
+		<uid value="112"/>
+		<gid value="65534"/>
+		<gecos value=""/>
+		<home value="/run/sshd"/>
+		<shell value="/usr/sbin/nologin"/>
+	</user>
+	<user name="irc">
+		<username value="irc"/>
+		<password value="x"/>
+		<uid value="39"/>
+		<gid value="39"/>
+		<gecos value="ircd"/>
+		<home value="/var/run/ircd"/>
+		<shell value="/usr/sbin/nologin"/>
+	</user>
+	<user name="root">
+		<username value="root"/>
+		<password value="x"/>
+		<uid value="0"/>
+		<gid value="0"/>
+		<gecos value="root"/>
+		<home value="/root"/>
+		<shell value="/bin/bash"/>
+	</user>
+	<user name="prueba">
+		<username value="prueba"/>
+		<password value="x"/>
+		<uid value="1000"/>
+		<gid value="1000"/>
+		<gecos value="prueba,,,"/>
+		<home value="/home/prueba"/>
+		<shell value="/bin/bash"/>
+	</user>
+</passwd>
