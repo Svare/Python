@@ -54,7 +54,7 @@ def make_request(url, opts):
 			if opts.password is not None:
 				passwords.append(opts.password.strip())
 	else:
-		password = [opts.password.strip()]
+		passwords = [opts.password.strip()]
 
 	try:
 		for user in users:
